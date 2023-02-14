@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Programa de cadenas</title>
+
+    </head>
+
+    <body>
+        <h1>Ejemplo de cadenas</h1>
+        <label>Nombre: </label>
+        <input type="text" id="nombre" class="form-control" placeholder="Ingresa un nombre">
+        <br><br>
+        <label>Apellido: </label>
+        <input type="text" id="apellido" class="form-control" placeholder="Ingresa un apellido">
+        <br><br>
+        <label>Nombre completo: </label>
+        <input type="text" id="resultado" class="form-control" disabled>
+        <br><br>
+        <button type="button" onclick="mostrar
