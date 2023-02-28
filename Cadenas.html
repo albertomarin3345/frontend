@@ -13,19 +13,17 @@
 <label>Nombre:</label>
 <input type="text" id="nombre" class="form-control" placeholder="Ingresa tus Nombres">
 <br><br>
-<label>Apellido:</label>
-<input type="text" id="Apellido" class="form-control" placeholder="Ingresa tus Apellidos">
-<br><br>
 <label>Constancia:</label>
-<input type="text" id="Link" class="form-control" placeholder="Descarga de Constancia">
+<input type="text" id="constancia" class="form-control" placeholder="Descarga de Constancia" disabled>
 <br><br>
-<button type="button" onclick="Link();">Buscar</button>
+<button type="button" onclick="buscar();">Buscar</button>
 
 <script>
-function Link(){
+function buscar(){
   nombre=document.getElementById("nombre").value;
-  if(Nombre=="Luis")
-    Constancia="Correcto";
+  if(nombre=="Luis Alberto")
+    resultado="Órale"
+  document.getElementById("constancia").value=resultado
 }
 
 </script>
