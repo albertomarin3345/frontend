@@ -8,14 +8,27 @@
     <title>Cadenas</title>
   </head>
   <body>
-<h1>Constancias</h1>
-<label>Escuela:</label>
-<input type="text" id="texto1" class="form-control" placeholder="Ingresa tu nombre">
+<h1>Constancias Docentes</h1>
+<p>Nota: Escribe las primeras letras con mayúsculas ejemplo: Luis Alberto</p>
+<label>Nombre:</label>
+<input type="text" id="nombre" class="form-control" placeholder="Ingresa tus Nombres">
 <br><br>
-<label>Evento:</label>
-<input type="text" id="texto2" class="form-control" placeholder="Ingresa el evento">
+<label>Apellido:</label>
+<input type="text" id="Apellido" class="form-control" placeholder="Ingresa tus Apellidos">
 <br><br>
+<label>Constancia:</label>
+<input type="text" id="Link" class="form-control" placeholder="Descarga de Constancia">
+<br><br>
+<button type="button" onclick="Link();">Buscar</button>
 
+<script>
+function Link(){
+  nombre=document.getElementById("nombre").value;
+  if(Nombre=="Luis")
+    Constancia="Correcto";
+}
+
+</script>
 
 
   </body>
