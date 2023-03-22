@@ -1,141 +1,144 @@
 <html>
-	<head>
-		<title>Menu Desplegable</title>
-		<style type="text/css">
-			.body{
-				background-color: aqua;
-			}
-			
-			* {
-				margin:0px;
-				padding:0px;
-			}
-			
-			#header {
-				margin:auto;
-				width:500px;
-				font-family:Arial, Helvetica, sans-serif;
-			}
-			
-			ul, ol {
-				list-style:none;
-			}
-			
-			.nav > li {
-				float:left;
-			}
-			
-			.nav li a {
-				background-color:#000;
-				color:#fff;
-				text-decoration:none;
-				padding:10px 12px;
-				display:block;
-			}
-			
-			.nav li a:hover {
-				background-color:#a35656;
-			}
-			
-			.nav li ul {
-				display:none;
-				position:absolute;
-				min-width:140px;
-			}
-			
-			.nav li:hover > ul {
-				display:block;
-			}
-			
-			.nav li ul li {
-				position:relative;
-			}
-			
-			.nav li ul li ul {
-				right:-140px;
-				top:0px;
-			}
-			
-		</style>
-	</head>
-	<body>
-		<div id="header">
-			<ul class="nav">
-				<li><a href="">Inicio</a></li>
-				<li><a href="">Escuela</a>
-					<ul>
-						<li><a href="">Mixta 19</a>
-							<ul>
-								<li><a href="">José Villafuerte Grajeda</a></li>
-								<li><a href="">Mario Aguilar Morales</a></li>
-							</ul>	
-						<li><a href="">Mixta 41</a>
-							<ul>
-								<li><a href="">Carlos Abundis Prieto</a></li>
-								<li><a href="">Efraín Marín García</a></li>	
-							</ul>
-						<li><a href="">Foránea 36</a>
-							<ul>
-								<li><a href="">Luis Ramón Nieves Sánchez</a></li>	
-							</ul>	
-						</li>
-						<li><a href="">Colegio Alemán de Guadalajara</a>
-							<ul>
-								<li><a href="">Mayra Yadira Medina Castañeda</a></li>	
-							</ul>	
-						</li>
-						<li><a href="">Colegio La Barranca</a>
-							<ul>
-								<li><a href="">Cynthia Marquez Bevilacqua</a></li>
-								<li><a href="">Mayra Alejandra Mendoza Esqueda</a></li>	
-							</ul>	
-						</li>
-						<li><a href="">Tercer Milenio Tabachines</a>
-							<ul>
-								<li><a href="">Hilda Arenas Saldaña</a></li>
-								<li><a href="">Esmeralda Prado Tejeda </a></li>	
-							</ul>	
-						</li>
-						<li><a href="">Tercer Milenio Belenes</a>
-							<ul>
-								<li><a href="">Hilda Arenas Saldaña</a></li>
-								<li><a href="">Esmeralda Prado Tejeda </a></li>	
-							</ul>	
-						</li>
-						<li><a href="">Colegio Patria</a>
-							<ul>
-								<li><a href="">David Ramos Jáuregui</a></li>
-								<li><a href="">Rosa Alejandra Reyna Contreras</a></li>	
-							</ul>	
-						</li>
-						<li><a href="">Colegio ECA</a>
-							<ul>
-								<li><a href="">Mauricio G. Fernández Manrique</a></li>
-								<li><a href="">Jessica Janette Bravo Galarza</a></li>	
-							</ul>	
-						</li>
-						<li><a href="">Colegio Ixtlahuacan</a>
-							<ul>
-								<li><a href="">Alejandro Sanguino Serratos</a></li>
-								<li><a href="">José Guadalupe Gómez Gómez</a></li>	
-							</ul>	
-						</li>
-						<li><a href="">Colegio Manuel Esteban Gutierrez de Hermosillo</a>
-							<ul>
-								<li><a href="">Rigoberto Hernández Ramírez</a></li>
-								<li><a href="">Rigoberto Hernández Ramírez</a></li>	
-							</ul>	
-						</li>
-						<li><a href="">Colegio Summerhill</a>
-							<ul>
-								<li><a href="">Rafael Gómez Bernal</a></li>
-								<li><a href="">Stephanie Bernal Pérez</a></li>	
-							</ul>	
-						</li>
-					</ul>
-				<li><a href="">Contacto</a></li>
-			</ul>
-		</div>
-	
-	</body>
+
+<head>
+	<title>Menu Desplegable</title>
+	<style type="text/css">
+		.body {
+			background-color: aqua;
+		}
+
+		* {
+			margin: 0px;
+			padding: 0px;
+		}
+
+		#header {
+			margin: auto;
+			width: 500px;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+
+		ul,
+		ol {
+			list-style: none;
+		}
+
+		.nav>li {
+			float: left;
+		}
+
+		.nav li a {
+			background-color: #000;
+			color: #fff;
+			text-decoration: none;
+			padding: 10px 12px;
+			display: block;
+		}
+
+		.nav li a:hover {
+			background-color: #a35656;
+		}
+
+		.nav li ul {
+			display: none;
+			position: absolute;
+			min-width: 140px;
+		}
+
+		.nav li:hover>ul {
+			display: block;
+		}
+
+		.nav li ul li {
+			position: relative;
+		}
+
+		.nav li ul li ul {
+			right: -140px;
+			top: 0px;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="header">
+		<ul class="nav">
+			<li><a href="">Inicio</a></li>
+			<li><a href="">Escuela</a>
+				<ul>
+					<li><a href="">Mixta 19</a>
+						<ul>
+							<li><a href="">José Villafuerte Grajeda</a></li>
+							<li><a href="">Mario Aguilar Morales</a></li>
+						</ul>
+					<li><a href="">Mixta 41</a>
+						<ul>
+							<li><a href="">Carlos Abundis Prieto</a></li>
+							<li><a href="">Efraín Marín García</a></li>
+						</ul>
+					<li><a href="">Foránea 36</a>
+						<ul>
+							<li><a href="">Luis Ramón Nieves Sánchez</a></li>
+						</ul>
+					</li>
+					<li><a href="">Colegio Alemán de Guadalajara</a>
+						<ul>
+							<li><a href="">Mayra Yadira Medina Castañeda</a></li>
+						</ul>
+					</li>
+					<li><a href="">Colegio La Barranca</a>
+						<ul>
+							<li><a href="">Cynthia Marquez Bevilacqua</a></li>
+							<li><a href="">Mayra Alejandra Mendoza Esqueda</a></li>
+						</ul>
+					</li>
+					<li><a href="">Tercer Milenio Tabachines</a>
+						<ul>
+							<li><a href="">Hilda Arenas Saldaña</a></li>
+							<li><a href="">Esmeralda Prado Tejeda </a></li>
+						</ul>
+					</li>
+					<li><a href="">Tercer Milenio Belenes</a>
+						<ul>
+							<li><a href="">Hilda Arenas Saldaña</a></li>
+							<li><a href="">Esmeralda Prado Tejeda </a></li>
+						</ul>
+					</li>
+					<li><a href="">Colegio Patria</a>
+						<ul>
+							<li><a href="">David Ramos Jáuregui</a></li>
+							<li><a href="">Rosa Alejandra Reyna Contreras</a></li>
+						</ul>
+					</li>
+					<li><a href="">Colegio ECA</a>
+						<ul>
+							<li><a href="">Mauricio G. Fernández Manrique</a></li>
+							<li><a href="">Jessica Janette Bravo Galarza</a></li>
+						</ul>
+					</li>
+					<li><a href="">Colegio Ixtlahuacan</a>
+						<ul>
+							<li><a href="">Alejandro Sanguino Serratos</a></li>
+							<li><a href="">José Guadalupe Gómez Gómez</a></li>
+						</ul>
+					</li>
+					<li><a href="">Colegio Manuel Esteban Gutierrez de Hermosillo</a>
+						<ul>
+							<li><a href="">Rigoberto Hernández Ramírez</a></li>
+							<li><a href="">Rigoberto Hernández Ramírez</a></li>
+						</ul>
+					</li>
+					<li><a href="">Colegio Summerhill</a>
+						<ul>
+							<li><a href="">Rafael Gómez Bernal</a></li>
+							<li><a href="">Stephanie Bernal Pérez</a></li>
+						</ul>
+					</li>
+				</ul>
+			<li><a href="">Contacto</a></li>
+		</ul>
+	</div>
+
+</body>
+
 </html>
